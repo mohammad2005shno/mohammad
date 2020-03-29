@@ -1,0 +1,8 @@
+apt upgrade
+apt update 
+pip install wordlist
+
+apt install hydra -y
+
+wordlist -m 3 -M 3 -o pass.txt 0123456789
+Nano pass.txt
